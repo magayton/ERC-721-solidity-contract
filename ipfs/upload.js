@@ -2,7 +2,6 @@ async function run() {
     const { create } = await import('ipfs-http-client');
     const ipfs = await create();
     
-    // we added three attributes, add as many as you want!
     const metadata = {
         path: '/',
         content: JSON.stringify({
@@ -22,8 +21,8 @@ async function run() {
             }
             ],
             // update the IPFS CID to be your image CID
-            image: "https://ipfs.io/ipfs/QmQ2wnwaFJ1w42UTywTWpM8RgiqrWwKFR6AMrpyiHPgi3p",
-            description: "So much PLW3!"
+            image: "https://ipfs.io/ipfs/QmUTEid6nnc5CKhJzn4eVbsyxpybdXDXx9xpRWSyxDfzLc",
+            description: "C'est Felix"
         })
     };
 
